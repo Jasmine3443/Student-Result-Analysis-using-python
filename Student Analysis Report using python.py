@@ -15,13 +15,13 @@ import seaborn as sns
 
 # calling dataset
 df=pd.read_csv("student_scores.csv")
-print(df.head()) #saare columns call ho jaty h using head
+print(df.head()) 
 
 
 # In[3]:
 
 
-df.describe() #columns jisme numeric value h 
+df.describe() 
 
 
 # In[4]:
@@ -33,7 +33,7 @@ df.info()
 # In[6]:
 
 
-df.isnull().sum() #jisme null values present h
+df.isnull().sum() 
 
 
 # In[8]:
